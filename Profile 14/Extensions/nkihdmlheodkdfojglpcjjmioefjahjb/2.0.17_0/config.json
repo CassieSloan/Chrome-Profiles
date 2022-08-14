@@ -1,9 +1,0 @@
-{
-  "server": {
-    "host": "browserstack.com",
-    "subDomain": "live",
-    "protocol": "https",
-    "cookiePrefix": "",
-    "address": "https://live.browserstack.com"
-  }
-}
