@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Browserstack Extension</title>
+  <link href="css/popup.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/sprite.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="quick-launch-container">
+      <div id="loader" class="hidden">
+        <img src="drawable/gif/loader.gif" />
+      </div>
+      <div id="freemium-overlay" class="hidden">
+        <div class="overlay-content-holder v-middle old-user">
+          <p class="header">Congratulations</p>
+          <p class="info">
+            You now have unlimited access to all IE & Edge browsers - for
+            free, even beyond the trial!
+          </p>
+          <div class="got-it-button freemium-got-it">
+            <div class="v-middle">Got It</div>
+          </div>
+        </div>
+        <div class="overlay-content-holder v-middle new-user">
+          <p class="header">Welcome to BrowserStack Live</p>
+          <div class="list-container">
+            <div class="visuallyhidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" id="check">
+                <g fill="none" fill-rule="evenodd">
+                  <circle cx="10.073" cy="9.509" r="9.2" fill="#68B300" fill-rule="nonzero" />
+                  <path stroke="#FFF" stroke-linecap="round" stroke-width="1.76"
+                    d="M6.473 9.535l1.915 2.774 5.285-4.8" />
+                </g>
+              </svg>
+            </div>
+            <p class="sub-header">You now have access to:</p>
+            <div class="list-item">
+              <div class="list-check-icon">
+                <svg width="20" height="20">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </div>
+              <div class="list-item-text free-min-text">30 mins of live testing on select browsers & devices</div>
+              <div class="list-item-text x-min-lft-text"> <span class="x-min-lft-value"></span> mins of live testing on select browsers & devices</div>
+            </div>
+            <div class="list-item">
+              <div class="list-check-icon">
+                <svg width="20" height="20">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </div>
+              <div class="list-item-text">
+                Unlimited access to all IE & Edge browsers - for free, even
+                beyond the trial!
+              </div>
+            </div>
+          </div>
+          <div class="got-it-button freemium-got-it">
+            <div class="v-middle">Got It</div>
+          </div>
+        </div>
+      </div>
+      <div id="quick-launch-url-wrapper">
+        <div class="suggestion-overlay hidden"></div>
+        <input type="text" placeholder="Enter URL here (Optional)" id="quick-launch-url" />
+      </div>
+      <div id="suggestions">
+        <div class="section-heading">
+          <span class="heading-icon icon-retest"></span>Re-test Suggestions
+        </div>
+        <div class="sub-text">
+          Test webpages on this domain using your frequently used browsers &
+          devices.
+        </div>
+        <div id="suggestions-list"></div>
+      </div>
+      <div class="quick-launch-wrapper">
+        <div class="suggestion-overlay hidden">
+          <div class="overlay-content">
+            <div class="title">Feature update</div>
+            <div class="sub-text">
+              Now you can re-test your frequently tested webpages using your preferred browsers and devices.
+            </div>
+            <div class="got-it-button suggestions-got-it">
+              <div class="v-middle">Got It</div>
+            </div>
+          </div>
+        </div>
+        <div class="section-heading"><span class="heading-icon icon-quick-launch"></span>Quick Launch</div>
+        <li id="edit-action">
+          <a href="https://live.browserstack.com/start?utm_source=chrome&utm_medium=extension&utm_campaign=quick-launch&quickLaunch=1"
+            target="_blank">
+            Edit
+          </a>
+        </li>
+        <div id="quick-launch-empty">
+          <h3>Your Quick Launch is empty!</h3>
+          <p>
+            Drag a browser to the quick launch bar on the browser listing to
+            add browsers to your Quick Launch.
+          </p>
+        </div>
+        <ul id="quick-launch-list"></ul>
+      </div>
+    </div>
+    <div class="footer">
+      <a class="logo-link" href="https://live.browserstack.com?utm_source=chrome&utm_medium=extension&utm_campaign=quick-launch"
+        target="_blank">
+        <img src="drawable/svg/logo.svg" alt="BrowserStack" />
+      </a>
+      <ul class="footer-links">
+        <li id="sign-in-action">
+          <a href="https://live.browserstack.com/start?utm_source=chrome-login&utm_medium=extension&utm_campaign=quick-launch"
+            target="_blank">
+            Sign In
+          </a>
+        </li>
+        <li id="view-all-action">
+          <a href="https://live.browserstack.com/start?utm_source=chrome&utm_medium=extension&utm_campaign=quick-launch"
+            target="_blank">
+            View All
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/popup.js"></script>
+</body>
+
+</html>

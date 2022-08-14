@@ -1,0 +1,6 @@
+2022/08/14-18:01:11.599 40567 Creating DB /Users/cassie/Library/Application Support/Google/Chrome/Profile 12/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2022/08/14-18:01:11.660 40567 Reusing MANIFEST /Users/cassie/Library/Application Support/Google/Chrome/Profile 12/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/14-18:12:27.070 56e07 Level-0 table #5: started
+2022/08/14-18:12:27.090 56e07 Level-0 table #5: 7311 bytes OK
+2022/08/14-18:12:27.129 56e07 Delete type=0 #3
+2022/08/14-18:12:27.131 56e07 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

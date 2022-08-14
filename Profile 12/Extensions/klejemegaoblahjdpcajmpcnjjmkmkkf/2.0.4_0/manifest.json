@@ -1,0 +1,34 @@
+{
+   "author": "Noisli.com",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/128.png",
+         "16": "icons/16.png",
+         "24": "icons/24.png",
+         "32": "icons/32.png",
+         "48": "icons/48.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Noisli"
+   },
+   "content_security_policy": "script-src 'self' 'sha256-yMe7VxlzSP7BnVQz16gqjvmhlnYzWUsfHx/U8ft93Fo=' https://www.google-analytics.com; object-src 'self'",
+   "description": "Your digital place for focus. Listen to background sounds to mask annoying noises and help you focus while you work, study or relax.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "24": "icons/24.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1QPSXLspKwt2LrMYfFkTGlEfokpnCcN+rQOyLOfndQqErzEfwYNCxmYiCq9rn0VI7BbvKQRF7F5UieP/WdKuPXqCjAP6/uT97V//gvmOrJ9GI0cnA91TtwE9nrN9WSvbWc3p+w6TjZvBRBoKuRLXOuNx2LK/codxbC3x4AuTn+UM0xIi9XZaT720AwPJ5LJ3TbC9TssTqDmxhfc08GceEqgmQT8ud+HI7QPsJYWGm6MUGhBN+jKimn9WhZTve3E10t8vZHjawE0mWSwRL2lhRzdIWWIkfw/XWduYU9ND+XS8gZ4Z3F0mwNH7chlGTSPSeFS023wEq5HRpOUXuznyGQIDAQAB",
+   "manifest_version": 2,
+   "name": "Noisli",
+   "optional_permissions": [ "notifications" ],
+   "permissions": [ "cookies", "https://www.noisli.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.4",
+   "web_accessible_resources": [ "images/*.png", "fonts/*" ]
+}

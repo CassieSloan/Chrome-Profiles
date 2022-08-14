@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "data/defaults.js", "lib/main.js" ]
+   },
+   "browser_action": {
+      "default_icon": "data/Icon-16.png",
+      "default_popup": "data/options.html",
+      "default_title": "Tumblr Savior"
+   },
+   "content_scripts": [ {
+      "exclude_globs": [ "http://www.tumblr.com/upload/*", "https://www.tumblr.com/upload/*" ],
+      "js": [ "data/script.js" ],
+      "matches": [ "http://www.tumblr.com/*", "https://www.tumblr.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Would you like to control what shows up on your dashboard? Tumblr Savior is here to save you!",
+   "icons": {
+      "128": "data/Icon-128.png",
+      "16": "data/Icon-16.png",
+      "32": "data/Icon-32.png",
+      "48": "data/Icon-48.png",
+      "64": "data/Icon-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDL1bKwRwgoWnG6vlwAFyLtYZY7Zq3vev8QNKCsJ9hPrZWuKQUZo7hCEmV1mXL+2ooRq9wPyCJP6fPVzTyw1kGrD1PaBqWBaHn6dVSakniddZmkaQS02tfoKdWORpd9KV5fNsVMDtcVQeAq7ddRX5ZWyk0IfUqqzEPQu5/6avq/6wIDAQAB",
+   "manifest_version": 2,
+   "name": "Tumblr Savior",
+   "options_page": "data/options.html",
+   "permissions": [ "contextMenus", "tabs", "http://www.tumblr.com/*", "https://www.tumblr.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.12.1"
+}

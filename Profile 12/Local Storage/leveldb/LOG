@@ -1,0 +1,21 @@
+2022/08/14-17:44:19.056 3103 Reusing MANIFEST /Users/cassie/Library/Application Support/Google/Chrome/Profile 12/Local Storage/leveldb/MANIFEST-000001
+2022/08/14-17:44:19.068 3103 Recovering log #10
+2022/08/14-17:44:19.083 3103 Reusing old log /Users/cassie/Library/Application Support/Google/Chrome/Profile 12/Local Storage/leveldb/000010.log 
+2022/08/14-17:50:44.841 3707 Level-0 table #14: started
+2022/08/14-17:50:44.863 3707 Level-0 table #14: 25409 bytes OK
+2022/08/14-17:50:44.905 3707 Delete type=0 #10
+2022/08/14-17:59:47.602 3103 Level-0 table #16: started
+2022/08/14-17:59:47.624 3103 Level-0 table #16: 64911 bytes OK
+2022/08/14-17:59:47.666 3103 Delete type=0 #13
+2022/08/14-17:59:47.668 3103 Compacting 4@0 + 1@1 files
+2022/08/14-17:59:47.694 3103 Generated table #17@0: 165 keys, 87952 bytes
+2022/08/14-17:59:47.694 3103 Compacted 4@0 + 1@1 files => 87952 bytes
+2022/08/14-17:59:47.732 3103 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/14-17:59:47.733 3103 Delete type=2 #14
+2022/08/14-17:59:47.733 3103 Delete type=2 #16
+2022/08/14-17:59:47.733 3103 Delete type=2 #7
+2022/08/14-17:59:47.733 3103 Delete type=2 #11
+2022/08/14-17:59:47.733 3103 Delete type=2 #9
+2022/08/14-18:05:50.997 3707 Level-0 table #19: started
+2022/08/14-18:05:51.019 3707 Level-0 table #19: 51718 bytes OK
+2022/08/14-18:05:51.060 3707 Delete type=0 #15

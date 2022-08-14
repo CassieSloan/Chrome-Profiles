@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/logo-128.png",
+         "16": "assets/logo-16.png",
+         "48": "assets/logo-48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "MarkUp"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "markup-content.js" ],
+      "matches": [ "https://app.markup.io/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Visual Feedback for Websites",
+   "icons": {
+      "128": "assets/logo-128.png",
+      "16": "assets/logo-16.png",
+      "48": "assets/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArAh2kFD82GmC/GNpH/egS4KF8eml5tna+uH2PJjqqiEARDY+9DEnnhduBG2L9/+Bbu83Qx9kKhno1Y0HC0TmEFx3rfv2uettJ3BXm/KemqLprIQY8EGuWEPpFOjPftyOqK9bxw6fU3OT3I0Au8v9ZX++iCAGIETEGnpSelCzWU9f7Ob0wfZLSEpqgZ4V3LvASVHHtuOxTNmINlQSrdec/HrDbRuuSpBk4XGm54w3s30ZriDDk3Y3APV2gjPrRYGvvT2toiJTsfmDk5cmufEfJCzXnCvXpPnG1JjofXq2OiFpXfhV3e9PNiCv4sGmtYAsUECJ9k32MpP8VeeEA9QkYwIDAQAB",
+   "manifest_version": 2,
+   "name": "MarkUp For Chrome",
+   "permissions": [ "tabs", "webNavigation", "webRequest", "webRequestBlocking", "storage", "alarms", "cookies", "\u003Call_urls>" ],
+   "short_name": "MarkUp.io",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.0"
+}

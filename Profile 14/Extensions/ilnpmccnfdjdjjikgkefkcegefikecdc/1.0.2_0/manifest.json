@@ -1,0 +1,28 @@
+{
+   "author": "thyngster",
+   "background": {
+      "scripts": [ "js/background.bundle.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/contentScript.bundle.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "GTM/GA Debugger",
+   "devtools_page": "pages/devtools.html",
+   "homepage_url": "https://www.thyngster.com",
+   "icons": {
+      "128": "assets/icons/icon-128.png",
+      "16": "assets/icons/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj0bEbS7mINiLCnm2Qn+dx1wk+BJ5b/r9XTyg/VpxQFCtVibr7v1Y9uQyHUuTUQ8Vkq3CvCTO0LtG0iJB3yXl0uR4fJaDXsMpVuZ/+W/tFrIh7xlERIgEPxNX0+4UvvB35GMvQRPe4FhM3orB29Qzea+e5ORsTGxsQcVI6QYp3S3iiSC3TzotMRQvPF0JOPliOAoE/W73hH92NN/ufYkIBbgnY9Vov5JElf9syCkOPSG+WgDIQZJIOQjp0Zx1Exo/lFkKNZFaP0gKs/mAzNSFQTX2l7LU3RfEXyEqkkABTVLbMmzkPZwRsEQLU6ZaCaVgYqKYFfb0mr6rqq2dz5IeeQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "49",
+   "name": "GTM/GA Debugger",
+   "permissions": [ "webNavigation", "storage", "webRequest", "webRequestBlocking", "*://*/*" ],
+   "short_name": "gtm-ga-debugger",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}
