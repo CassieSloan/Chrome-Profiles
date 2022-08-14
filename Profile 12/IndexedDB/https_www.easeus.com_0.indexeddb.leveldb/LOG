@@ -1,6 +1,0 @@
-2022/08/14-17:44:29.174 10d03 Creating DB /Users/cassie/Library/Application Support/Google/Chrome/Profile 12/IndexedDB/https_www.easeus.com_0.indexeddb.leveldb since it was missing.
-2022/08/14-17:44:29.236 10d03 Reusing MANIFEST /Users/cassie/Library/Application Support/Google/Chrome/Profile 12/IndexedDB/https_www.easeus.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/14-17:44:29.415 ea03 Level-0 table #5: started
-2022/08/14-17:44:29.454 ea03 Level-0 table #5: 617 bytes OK
-2022/08/14-17:44:29.479 ea03 Delete type=0 #3
-2022/08/14-17:44:29.480 ea03 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

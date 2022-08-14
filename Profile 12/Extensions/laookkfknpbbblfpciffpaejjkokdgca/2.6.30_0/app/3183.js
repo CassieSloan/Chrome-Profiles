@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmomentum=self.webpackChunkmomentum||[]).push([[3183],{93183:(e,s,u)=>{u.r(s),u.d(s,{default:()=>m});const m=new(u(27966).Z)("serviceWorker",.01)}}]);
